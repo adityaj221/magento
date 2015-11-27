@@ -1,0 +1,29 @@
+
+How to use & show in your FrontEnd:
+
+#Put bellow code to any position you want in your layout:
+
+#Option 1: 
+<block type="jmmegamenu/jmmegamenu" name="left.jmmegamenu1" before="-">
+	<action method="addData"><data><menu_group_id>12</menu_group_id></data></action>
+	<action method="addData"><data><addition_class>vertical-mega-menu</addition_class></data></action>
+</block>
+
+#Option 2:
+<block type="jmmegamenu/jmmegamenu" name="left.jmmegamenu2" before="-">
+	<action method="addData"><data><menu_key>YOUR_MENU_KEY</menu_key></data></action>
+	<action method="addData"><data><addition_class>CSS_CLASS_NAME</addition_class></data></action>
+</block>
+
+#Option 3: Call in CMS page
+{{block type="jmmegamenu/jmmegamenu" name="left.jmmegamenu2" menu_group_id="13"}}
+
+#Option 4: Call in CMS page
+#Use vertical style in default of Jm Megamenu, we can use bellow code:
+{{block type="jmmegamenu/jmmegamenu" name="left.jmmegamenu2" menu_group_id="13" addition_class="vertical-mega-menu" }}
+
+#Optional params:
+menu_group_id
+menu_key
+addition_class
+animation (value optionals: none, jaws, fence, venitian, fly, papercut, fan, wave, helix, pop, linear, bounce, winding, shield)
