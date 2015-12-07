@@ -1,0 +1,1 @@
+a:7:{s:24:"active_push_notification";i:1;s:11:"android_key";s:39:"AIzaSyC5tw0jTUeFfcm2kvYMDk4AudnnF5DmJuM";s:17:"android_sender_id";s:12:"881306584774";s:18:"upload_iospem_file";N;s:22:"upload_iospem_file_url";N;s:12:"pem_password";N;s:11:"sandboxmode";i:0;}

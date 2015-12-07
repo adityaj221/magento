@@ -38,13 +38,13 @@
                 //hideNav("right");
             })
 
-            var $btn = $('#jm-mainnav .btn-toggle'),
+            var $btn = $('#ja-mainnav .btn-toggle'),
                 $nav = null,
                 $fixeditems = null;
 
             if (!$btn.length) return;
 
-            $nav = $('<div class="jm-mainnav" />').appendTo($('<div id="off-canvas-nav"></div>').appendTo($("#jm-wrapper")));
+            $nav = $('<div class="ja-mainnav" />').appendTo($('<div id="off-canvas-nav"></div>').appendTo($("#ja-wrapper")));
 
             //make search form markup
             $searchbarHtml = $("#search_mini_form").parent().html();
@@ -59,7 +59,7 @@
 
             $btn.click (function(e){
                 if ($(this).data('off-canvas') == 'show') {
-                    //hideNav();
+                    hideNav();
                 } else {
                     showNav();
                 }
@@ -90,7 +90,7 @@
 
                 if(!$("#jmoffcanvasdim").length && $(window).width() <= 1366){
                     var $jmoverlay = $('<div id="jmoffcanvasdim" class="jmoffcanvasdim"></div>');
-                    $jmoverlay.appendTo('#jm-wrapper');
+                    $jmoverlay.appendTo('#ja-wrapper');
                     $jmoverlay.on("click",function(e){
                         bdHideNav(e);
                     })
@@ -98,7 +98,7 @@
 
                 if(side == "right"){
 
-                    var mainwidth = $("#jm-wrapper").width();
+                    var mainwidth = $("#ja-wrapper").width();
                     var mycartwidth = $("#off-canvas-right .jm-mycart").width();
                     var transformwidth = mainwidth + mycartwidth;
                     var transform = "translateX("+transformwidth+"px)";

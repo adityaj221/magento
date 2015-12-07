@@ -1,0 +1,1 @@
+a:10:{s:9:"bundle_id";s:26:"com.mobicommerce.sampleapp";s:8:"iosappid";s:9:"910995460";s:15:"android_appname";s:4:"test";s:17:"android_appweburl";s:0:"";s:20:"android_appmobileurl";s:0:"";s:11:"ios_appname";s:4:"test";s:13:"ios_appweburl";s:0:"";s:16:"ios_appmobileurl";s:0:"";s:15:"app_description";s:25:"Have you tried this app ?";s:15:"app_share_image";s:0:"";}

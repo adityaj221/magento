@@ -14,7 +14,7 @@ a:hover, a:active, a:focus { color: #ff5300; }
 --------------------------------------------------------- */
 #ja-header .main { border-top-color: #ffd800; }
 
-h1#logo a { background-image: url(../../images/yellow/logo.gif) !important; }
+h1#logo a { background-image: url(../../images/yellow/logo.gif); }
 
 /* MAIN NAVIGATION
 --------------------------------------------------------- */
@@ -46,9 +46,9 @@ h1#logo a { background-image: url(../../images/yellow/logo.gif) !important; }
 #ja-footer .main { border-bottom-color: #ffd800; }
 
 #ja-footer li a { color: #ffd800; }
-
+/*
 #ja-footer .jm-footer-logo a { background-image: url(../../images/yellow/logo.gif); }
-
+*/
 /* FORMS
 ----------------------------------------------------------------*/
 button.btn-cart {

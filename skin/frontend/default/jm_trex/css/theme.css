@@ -145,7 +145,7 @@ p.f-left { margin: 0; }
 
 #topbar {
 	float: left;
-	width: 830px;
+	width: 90%;
 	border-left: 1px solid #1c1c1c;
 }
 
@@ -171,6 +171,8 @@ h1#footer-logo a {
 	width: 80px;
 	height: 80px;
 	text-indent: -99999px;
+	background-size: 100%;
+	border-radius: 40px;
 }
 
 h1#logo a span,
@@ -641,7 +643,7 @@ div#logo-text h1 a {
 
 #ja-footer .jm-footer-logo { position: absolute; left: 0; top: 40px; }
 
-#ja-footer .jm-footer-logo a { background: url(../images/logo.gif) no-repeat left top; }
+#ja-footer .jm-footer-logo a { background: url(../images/logo.gif) no-repeat left top;     background-size: 100%;}
 
 #ja-footer .jm-footer-logo a span { display: none; }
 
@@ -2515,7 +2517,7 @@ a.minimal-price-link .price {
 .products-grid .ratings, /*product rating*/
 .products-grid .price-box, /*product price*/
 .products-grid .pdescription /* product description */ {
-	margin: 0 0 20px;
+	margin: 0 0 10px;
 }
 
 .products-grid .actions /* buttons and add to links */ {
@@ -2581,7 +2583,7 @@ a.minimal-price-link .price {
 }
 
 .products-grid .price-box .regular-price .price {
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .products-grid {

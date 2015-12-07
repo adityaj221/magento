@@ -76,7 +76,7 @@
 
 .products-grid li.item-grid4, 
 .products-grid li.item-grid3 {
-	width: 100% !important;
+	width: 50% !important;
 }
 
 .products-grid li.item:nth-child(2n+1) {
